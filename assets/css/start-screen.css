@@ -1,0 +1,36 @@
+.start-screen {
+    padding: 60px 40px 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-image: url('../img/start-screen-gradient-background.jpg');
+    background-position: center -120px;
+    background-repeat: no-repeat;
+}
+
+.start-screen__information {
+    width: 460px;
+
+    padding-top: 163px;
+}
+
+.start-screen__title {
+    width: 310px;
+
+    font-family: var(--header-font-family);
+    font-size: 44px;
+    line-height: 57px;
+    font-weight: 400;
+
+    color: var(--light-color);
+}
+
+.start-screen__description {
+    padding: 42px 0;
+
+    font-size: var(--main-font-size);
+    line-height: 24px;
+
+    color: #CDCDCD;
+}
