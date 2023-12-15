@@ -3,6 +3,10 @@
 
     padding: 60px 40px 0;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     background-image: url('../img/start-screen-gradient-background.jpg');
     background-position: center 0;
     background-repeat: no-repeat;
@@ -20,7 +24,36 @@
     font-family: var(--header-font-family);
     font-size: 32px;
     line-height: 35px;
-    /* letter-spacing: 6px;  */
+    letter-spacing: 2px; 
 
     color: var(--primary-color);
+}
+
+.logo__subtitle {
+    padding-left: 4px;
+
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.25px;
+
+    color: var(--light-color);
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 35px;
+}
+
+.nav__item {
+    font-size: var(--main-font-size);
+    line-height: 24px;
+
+    color: #CDCDCD;
+}
+
+.nav__item.active {
+    color: #FAFAFA;
+
+    border-bottom: 3px solid var(--primary-color);
 }
