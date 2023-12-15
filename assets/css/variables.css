@@ -1,0 +1,14 @@
+:root {
+    --main-bg-color: #FFFFFF;
+    --sub-bg-color: #F6F6F6;
+
+    --primary-color: #F1CDB3;
+    --light-color: #FFFFFF;
+    --dark-color: #545454;
+    --button-color: #292929;
+
+    --main-font-size: 15px;
+
+    --header-font-family: 'Georgia', serif;
+    --font-family: 'Arial', sans-serif;
+}

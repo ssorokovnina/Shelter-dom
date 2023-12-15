@@ -8,9 +8,9 @@
 
     <title>Cozy House</title>
 </head>
-<body>
+<body class="body">
     <header class="header">
-        <div class="container">
+        <div class="container container_p0">
             <div class="header__wrapper">
                 <div class="logo">
                     <h1 class="logo__title">
@@ -40,7 +40,7 @@
         </div>
     </header>
     <main class="main">
-        <div class="container">
+        <div class="container container_p0">
             <section class="start-screen">
                 <div class="start-screen__information">
                     <h2 class="start-screen__title">Not only people need a house</h2>
@@ -53,7 +53,9 @@
                     <img src="./assets/img/start-screen-puppy.png" alt="cute puppy" class="start-screen__pic">
                 </div>
             </section>
+        </div>
 
+        <div class="container">
             <section class="about">
                 <div class="about__image">
                     <img src="./assets/img/about-pets.png" alt="pets" class="about__pic">
@@ -204,45 +206,47 @@
         </div>
     </main>
     <footer class="footer">
-        <ul class="footer__wrapper">
-            <li class="contacts">
-                <p class="contacts__title">
-                    For questions and suggestions
-                </p>
-                <div class="contacts__mail">
-                    <img src="./assets/svg/icon-email.svg" alt="mail icon" class="mail-icon">
-                    <p class="mail-address">
-                        email@shelter.com
+        <div class="container container_p0">
+            <ul class="footer__wrapper">
+                <li class="contacts">
+                    <p class="contacts__title">
+                        For questions and suggestions
                     </p>
-                </div>
-                <div class="contacts__phone">
-                    <img src="./assets/svg/icon-phone.svg" alt="phone icon" class="phone-icon">
-                    <p class="phone-number">
-                        +13 674 567 75 54
+                    <div class="contacts__mail">
+                        <img src="./assets/svg/icon-email.svg" alt="mail icon" class="mail-icon">
+                        <p class="mail-address">
+                            email@shelter.com
+                        </p>
+                    </div>
+                    <div class="contacts__phone">
+                        <img src="./assets/svg/icon-phone.svg" alt="phone icon" class="phone-icon">
+                        <p class="phone-number">
+                            +13 674 567 75 54
+                        </p>
+                    </div>
+                </li>
+                <li class="locations">
+                    <p class="locations__title">
+                        For questions and suggestions
                     </p>
-                </div>
-            </li>
-            <li class="locations">
-                <p class="locations__title">
-                    For questions and suggestions
-                </p>
-                <div class="locations__mail">
-                    <img src="./assets/svg/icon-marker.svg" alt="location icon" class="location-icon">
-                    <p class="address first-address">
-                        1 Central Street, Boston (entrance from the store)
-                    </p>
-                </div>
-                <div class="locations__phone">
-                    <img src="./assets/svg/icon-marker.svg" alt="location icon" class="location-icon">
-                    <p class="address second-address">
-                        18 South Park, London
-                    </p>
-                </div>
-            </li>
-            <li class="footer__image">
-                <img src="./assets/img/footer-puppy.png" alt="puppy" class="footer__pic">
-            </li>
-        </ul>
+                    <div class="locations__mail">
+                        <img src="./assets/svg/icon-marker.svg" alt="location icon" class="location-icon">
+                        <p class="address first-address">
+                            1 Central Street, Boston (entrance from the store)
+                        </p>
+                    </div>
+                    <div class="locations__phone">
+                        <img src="./assets/svg/icon-marker.svg" alt="location icon" class="location-icon">
+                        <p class="address second-address">
+                            18 South Park, London
+                        </p>
+                    </div>
+                </li>
+                <li class="footer__image">
+                    <img src="./assets/img/footer-puppy.png" alt="puppy" class="footer__pic">
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

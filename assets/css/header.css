@@ -1,0 +1,26 @@
+.header__wrapper {
+    height: 120px;
+
+    padding: 60px 40px 0;
+
+    background-image: url('../img/start-screen-gradient-background.jpg');
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    height: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo__title {
+    font-family: var(--header-font-family);
+    font-size: 32px;
+    line-height: 35px;
+    /* letter-spacing: 6px;  */
+
+    color: var(--primary-color);
+}

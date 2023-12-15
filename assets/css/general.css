@@ -1,0 +1,17 @@
+.body {
+    background-color: var(--main-bg-color);
+
+    font-size: var(--main-font-size);
+    font-family: var(--font-family);
+}
+
+.container {
+    max-width: 1280px;
+
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.container_p0 {
+    padding: 0;
+}
