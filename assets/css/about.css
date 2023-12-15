@@ -1,0 +1,36 @@
+.about {
+    padding-top: 76px;
+    padding-bottom: 100px;
+
+    display: flex;
+    column-gap: 120px;
+}
+
+.about__image {
+    padding-left: 175px;
+}
+
+.about__information {
+    width: 430px;
+
+    padding: 14px 0;
+}
+
+.about__title {
+    width: 370px;
+
+    font-family: var(--header-font-family);
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 2px;
+
+    color: var(--dark-color);
+}
+
+.about__description {
+    padding-top: 25px;
+
+    line-height: 24px;
+
+    color: #4C4C4C;
+}
